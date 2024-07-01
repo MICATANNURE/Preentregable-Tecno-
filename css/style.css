@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../font/Raleway-Regular.ttf);
+}
+
+body {
+    background-color: white;
+    font-family: "Raleway-Regular";
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position:fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+header {
+    background-color: hwb(0 11% 32%);
+    text-align: center;
+}
+
+h1,h2 {
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Shantell Sans", cursive;
+    text-align: center;
+}
+header img {
+    width: 150px;
+    border-radius: 20%;
+    padding: 10px;
+    border: gray 3px solid;
+    margin-top: 20px; 
+}
+header nav ul {
+    list-style-type: none;
+}
+li {
+    margin: 20px;
+    display: inline-block;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    border: white 2px solid;
+    padding:10px;
+}
+.subt {
+    color: black;
+    text-align: center;
+}
+p {
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+footer {
+    margin: 20px auto;
+    background-color: hwb(0 11% 32%);
+    padding: 20px;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+.formulario {
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+}
+.nosotros {
+    background-image: url(../Img/pattern3.jpg.png);
+}
